@@ -6,7 +6,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false)
 
   return (
-    <div>
+    <div className="pl-5 pt-3">
       <Title>
         Balance aproximado en pesos
         <img onClick={()=>{setShow(!show)}} className="mt-1 ml-1 cursor-pointer p-1" width="18px" src="https://img.icons8.com/android/24/000000/expand-arrow.png" alt="down"/>

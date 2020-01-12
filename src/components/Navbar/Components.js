@@ -7,7 +7,7 @@ export const Title = styled.div.attrs({
 })``
 
 export const DropContainer = styled.div.attrs(props=>({
-  className:`${props.show ? 'flex' : 'hidden'} justify-end w-full`
+  className:`${props.show ? 'flex' : 'hidden'} justify-end w-1/3 pl-3`
 }))``
 
 export const DropDown = styled.div.attrs({
