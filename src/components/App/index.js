@@ -12,7 +12,7 @@ function App() {
         <Sidebar/>
       </Col>
       <Col width='auto'>
-        Container
+        
       </Col>
     </Container>
   );

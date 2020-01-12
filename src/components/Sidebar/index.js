@@ -1,14 +1,16 @@
 import React from 'react'
-import styled from 'styled-components'
-
-const SidebarContainer = styled.div.attrs({
-  className: 'w-full h-full bg-white'
-})``
+import menu from '../../assets/menu.png'
+import { SidebarContainer, Title, Menu } from "./Components";
 
 const Sidebar = () => {
   return (
     <SidebarContainer>
-      side
+      <Title>
+        Co-
+      </Title>
+      <Menu>
+        <img src={menu} alt="menu" />
+      </Menu>
     </SidebarContainer>
   )
 }
