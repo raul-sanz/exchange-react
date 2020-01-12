@@ -21,6 +21,9 @@ const Dashboard = () => {
     <Container>
       <CardsBalanceContainer>
         <CardBalance/>
+        <CardBalance/>
+        <CardBalance/>
+        <CardBalance/>
       </CardsBalanceContainer>
 
       <CardsContainer>
