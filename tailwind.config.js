@@ -7,7 +7,8 @@ module.exports = {
      'danger': '#e3342f',
     }),
     fontFamily:{
-      'dim':['dimpro']
+      'dim':['Dimpro'],
+      'inai':['InaiMathi']
     }
   },
   variants: {},

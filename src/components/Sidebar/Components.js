@@ -6,7 +6,7 @@ export const SidebarContainer = styled.div.attrs({
 })``
 
 export const Title = styled.h3.attrs({
-  className:'font-dim text-center pt-2'
+  className:'font-dim text-center pt-2 font-bold'
 })``
 export const Menu = styled.div.attrs({
   className:'text-center p-3 mt-10'

@@ -3682,7 +3682,11 @@ video {
 }
 
 .font-dim {
-  font-family: dimpro;
+  font-family: Dimpro;
+}
+
+.font-inai {
+  font-family: InaiMathi;
 }
 
 .font-hairline {
@@ -11416,9 +11420,15 @@ video {
 }
 
 @font-face {
-  font-family: 'dimpro';
+  font-family: 'Dimpro';
 
   src: local('dimpro'), url(../fonts/DINPro-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'InaiMathi';
+
+  src: local('inaimathi'), url(../fonts/InaiMathi.ttf) format('truetype');
 }
 
 @media (min-width: 640px) {
@@ -14477,7 +14487,11 @@ video {
   }
 
   .sm\:font-dim {
-    font-family: dimpro;
+    font-family: Dimpro;
+  }
+
+  .sm\:font-inai {
+    font-family: InaiMathi;
   }
 
   .sm\:font-hairline {
@@ -25267,7 +25281,11 @@ video {
   }
 
   .md\:font-dim {
-    font-family: dimpro;
+    font-family: Dimpro;
+  }
+
+  .md\:font-inai {
+    font-family: InaiMathi;
   }
 
   .md\:font-hairline {
@@ -36057,7 +36075,11 @@ video {
   }
 
   .lg\:font-dim {
-    font-family: dimpro;
+    font-family: Dimpro;
+  }
+
+  .lg\:font-inai {
+    font-family: InaiMathi;
   }
 
   .lg\:font-hairline {
@@ -46847,7 +46869,11 @@ video {
   }
 
   .xl\:font-dim {
-    font-family: dimpro;
+    font-family: Dimpro;
+  }
+
+  .xl\:font-inai {
+    font-family: InaiMathi;
   }
 
   .xl\:font-hairline {

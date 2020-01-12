@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'dimpro';
+  font-family: 'Dimpro';
   src: local('dimpro'), url(../fonts/DINPro-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'InaiMathi';
+  src: local('inaimathi'), url(../fonts/InaiMathi.ttf) format('truetype');
 }
